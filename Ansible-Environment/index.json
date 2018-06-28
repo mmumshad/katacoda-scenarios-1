@@ -6,7 +6,7 @@
   "details": {
     "steps": [{
       "title": "Step 1 - Identifying the ansible version.",
-      "text": "step1.md"
+      "text": "step1.md",
       "title": "Step 2 - Identifying your ansible Control and Targe machines.",
       "text": "step2.md"
     }],
