@@ -1,0 +1,28 @@
+{
+  "title": "Getting familiarized with Ansbile environment",
+  "description": "Ansible for beginners",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Identifying the ansible version.",
+      "text": "step1.md"
+      "title": "Step 2 - Identifying your ansible Control and Targe machines.",
+      "text": "step2.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Ansbile environment.\r\nLet's being!!\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ansible"
+  }
+}
