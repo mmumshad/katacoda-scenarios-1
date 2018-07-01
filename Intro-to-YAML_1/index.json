@@ -1,0 +1,26 @@
+{
+  "title": "Introduction to YAML - 1",
+  "description": "Ansible for beginners",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Know YAML Syntax",
+      "text": "step1.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Ansbile environment.\r\nLet's being!!\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ansible"
+  }
+}
