@@ -1,2 +1,7 @@
 ---
-##### DATA TO BE TESTED #####
+- hosts: all # Use group all to run the playbook against.
+  gather_facts: False # This means to skip the information collection of the target machine like OS version, platform etc. This parameter will work only if python is installed and since this playbook starts with Python installation, the operation may crash if set to true as it would not be able to connect with the target host to collect this information.
+  remote_user: ubuntu # You are logging in with Ubuntu. If the username is provided in the command line then the user specified in the playbook has less precedence over the user specified in the playbook.
+  become: yes # Escalation privelege and become the root user.
+  become_user: root
+  become_method: sudo
